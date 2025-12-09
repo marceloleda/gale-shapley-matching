@@ -11,7 +11,18 @@ O algoritmo Deferred Acceptance foi proposto por Gale e Shapley (1962) para enco
 ## Como executar
 
 ```bash
-python deferred_acceptance.py
+python3 deferred_acceptance.py
+```
+
+## Validação contra biblioteca matching (JOSS)
+
+Para validar a implementação contra a biblioteca `matching` de Wilde et al. (2020):
+
+```bash
+python3 -m venv venv
+source venv/bin/activate
+pip install matching
+python3 validacao_matching.py
 ```
 
 ## Estrutura
